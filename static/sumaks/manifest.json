@@ -1,0 +1,17 @@
+{
+  "runtime.js": "/scripts/runtime.21804de8.js",
+  "vendors~main.js": "/scripts/vendors~main.2a646d48.js",
+  "main.css": "/styles/2.16d86b23.css",
+  "main.js": "/scripts/main.fe18c458.js",
+  "fonts/Montserrat-Light.ttf": "/fonts/Montserrat-Light.2f354053.ttf",
+  "images/showcase-bg.jpg": "/images/showcase-bg.b9eebc6a.jpg",
+  "fonts/Montserrat-ExtraLight.ttf": "/fonts/Montserrat-ExtraLight.94603128.ttf",
+  "images/about-bg.png": "/images/about-bg.e4db5b6b.png",
+  "images/schedule1.png": "/images/schedule1.21c9806c.png",
+  "images/team1.jpg": "/images/team1.5eaaf130.jpg",
+  "images/team2.jpg": "/images/team2.e9956fa5.jpg",
+  "images/schedule2.png": "/images/schedule2.21c9806c.png",
+  "images/team3.jpg": "/images/team3.8fe3946e.jpg",
+  "index.html": "/index.html",
+  "../stats.json": "/../stats.json"
+}

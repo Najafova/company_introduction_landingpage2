@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+	<title>Certificates</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="{% static 'sumaks/images/favicon.ico' %}"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'certificates/vendor/bootstrap/css/bootstrap.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'certificate/fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'certificate/fonts/iconic/css/material-design-iconic-font.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'certificate/vendor/animate/animate.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'certificate/vendor/css-hamburgers/hamburgers.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'certificate/vendor/animsition/css/animsition.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'certificate/vendor/select2/select2.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'certificate/vendor/daterangepicker/daterangepicker.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'certificate/css/util.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'certificate/css/main.css' %}">
+</head>
+<body>
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-t-85 p-b-20">
+
+				<!-- search form bashlayir -->
+				<form class="login100-form validate-form" action="{% url 'search_results' %}" method="get">
+					<span class="login100-form-title p-b-70">
+						Sumaks Academy
+					</span>
+					<span class="login100-form-avatar">
+						<img src="{% static 'certificate/images/logo.jpg' %}" alt="AVATAR">
+					</span>
+					<!-- Seriya nomresi input sahesi -->
+					<div class="wrap-input100 validate-input m-t-85 m-b-35" data-validate = "Seriya nömrəsini daxil edin">
+						<input class="input100" type="text" name="q" placeholder="ID number...">
+						<span class="focus-input100"></span>
+					</div>
+					<!-- Seriya nomresi input sahesi bitir -->
+
+					<!-- axtar butonu bashlayir -->
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Certificate
+						</button>
+					</div>
+					<!-- axtar butonu bitir -->
+
+				</form>
+				<!-- search form bitir -->
+
+
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+	<script src="{% static 'certificate/vendor/jquery/jquery-3.2.1.min.js' %}"></script>
+	<script src="{% static 'certificate/vendor/animsition/js/animsition.min.js' %}"></script>
+	<script src="{% static 'certificate/vendor/bootstrap/js/popper.js' %}"></script>
+	<script src="{% static 'certificate/vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'certificate/vendor/select2/select2.min.js' %}"></script>
+	<script src="{% static 'certificate/vendor/daterangepicker/moment.min.js' %}"></script>
+	<script src="{% static 'certificate/vendor/daterangepicker/daterangepicker.js' %}"></script>
+	<script src="{% static 'certificate/vendor/countdowntime/countdowntime.js' %}"></script>
+	<script src="{% static 'certificate/js/main.js' %}"></script>
+
+</body>
+</html>
